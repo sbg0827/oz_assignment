@@ -66,7 +66,7 @@ form.addEventListener("submit", function(event){
         성별 : ${userGender}
         이메일 : ${userEmail}`)
 
-        document.body.innerHTML = ""
+        document.body.innerHTML = "2day.html"
         document.write(`<p>${userId}님 환영합니다
             </p>`)
 })
